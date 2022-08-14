@@ -1,10 +1,10 @@
 # REPOSITÓRIO DE POO - 922
 
 ## INFORMAÇÕES SOBRE O DONO DO REPOSITÓRIO
-> Nome: João Pedro de Oliveira Santos 
-> Idade: 15 anos 
-> Escolaridade: Cursando o 2º ano do Ensino médio
-> E-mail: jpos2@aluno.ifal.edu.br
+> Nome: João Pedro de Oliveira Santos\n
+> Idade: 15 anos\n
+> Escolaridade: Cursando o 2º ano do Ensino médio\n
+> E-mail: jpos2@aluno.ifal.edu.br\n
 
 - LINGUAGEM DE PROGRAMAÇÃO UTILIZADA: 
 <picture>
