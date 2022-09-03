@@ -3,7 +3,7 @@
 
 ## INFORMAÇÕES SOBRE O DONO DO REPOSITÓRIO
 > - Nome: João Pedro de Oliveira Santos <br/>
-> - Idade: 15 anos <br/>
+> - Idade: 16 anos <br/>
 > - Escolaridade: Cursando o 2º ano do Ensino médio<br/>
 > - E-mail: jpos2@aluno.ifal.edu.br<br/>
 
