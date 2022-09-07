@@ -1,7 +1,10 @@
+//Função principal 
 void main() {
     print(aprovacao(12221, 6.7, 4.7, 2.3));
 }
 
+
+//Função responsável pela aprovação do aluno  
 String aprovacao(int codigoAluno, double n1, double n2, double n3){
     int codigoAluno = 12332;
     double maiorNota;
