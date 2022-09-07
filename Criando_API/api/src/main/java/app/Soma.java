@@ -6,7 +6,7 @@ import io.jooby.annotations.*;
 public class Soma {
     
     @GET
-    public Double calculandoSoma(@PathParam double op, double op2){
-        return op+op2;
+    public Double calculandoSoma(@PathParam double op, @PathParam double op2){
+        return op + op2;    
     }
 }
