@@ -1,5 +1,7 @@
 package app;
 
+import io.jooby.MockRouter;
+import io.jooby.StatusCode;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -7,7 +9,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class UnitTest {
   @Test
   public void welcome() {
-    Controller controller = new Controller();
-    assertEquals("Welcome to Jooby!", controller.sayHi());
+    MockRouter router = new MockRouter(new App());
+    router.get("/",rsp -> {
+      assertEquals("Welcome to Jooby!", rsp.value());
+      assertEquals(StatusCode.OK, rsp.getStatusCode());
+    });
   }
 }
