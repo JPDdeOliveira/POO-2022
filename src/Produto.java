@@ -2,11 +2,11 @@ package src;
 
 import java.util.*;
 public class Produto {
-    private float preco;
+    private double preco;
     private String titulo;
     private Scanner scanner;
 
-    public Produto(float preco, String titulo) {
+    public Produto(double preco, String titulo) {
         this.preco = preco;
         this.titulo = titulo;
     }
@@ -18,7 +18,7 @@ public class Produto {
         titulo = scanner.nextLine();
     }
 
-    public float getPreco() {
+    public double getPreco() {
         return preco;
     }
 

@@ -5,7 +5,7 @@ public class Cd extends Produto{
     private int faixas;
     private Scanner scanner;
 
-    public Cd(float preco, String titulo, int faixas) {
+    public Cd(double preco, String titulo, int faixas) {
         super(preco, titulo);
         this.faixas = faixas;
     }

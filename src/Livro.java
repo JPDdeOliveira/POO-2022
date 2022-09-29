@@ -6,7 +6,7 @@ public class Livro extends Produto {
     private String autor;
     private Scanner scanner;
 
-    public Livro(float preco, String titulo, String autor) {
+    public Livro(double preco, String titulo, String autor) {
         super(preco, titulo);
         this.autor = autor;
     }

@@ -6,7 +6,7 @@ public class Dvd extends Produto {
     private int duracao;
     private Scanner scanner;
 
-    public Dvd(float preco, String titulo, int duracao) {
+    public Dvd(double preco, String titulo, int duracao) {
         super(preco, titulo);
         this.duracao = duracao;
     }
